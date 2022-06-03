@@ -1,0 +1,50 @@
+---
+:source:
+  :path: test
+  :file: test_leds.c
+:successes:
+- :test: test_leds_off_after_create
+  :line: 34
+  :message: ''
+  :unity_test_time: 0
+- :test: test_turn_on_one_led
+  :line: 45
+  :message: ''
+  :unity_test_time: 0
+- :test: test_turn_off_one_led
+  :line: 55
+  :message: ''
+  :unity_test_time: 0
+- :test: test_turn_on_off_many_leds
+  :line: 66
+  :message: ''
+  :unity_test_time: 0
+- :test: test_turn_on_all_leds
+  :line: 79
+  :message: ''
+  :unity_test_time: 0
+- :test: test_turn_off_all_leds
+  :line: 89
+  :message: ''
+  :unity_test_time: 0
+- :test: test_read_led_val
+  :line: 100
+  :message: ''
+  :unity_test_time: 0
+- :test: test_limit_leds
+  :line: 110
+  :message: ''
+  :unity_test_time: 0
+- :test: test_invalid_upperlimit_on_led
+  :line: 129
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 9
+  :passed: 9
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0012329330202192068
