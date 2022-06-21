@@ -1,0 +1,55 @@
+---
+:source:
+  :path: test
+  :file: test_mlx90316.c
+:successes:
+- :test: test_invalid_frame
+  :line: 12
+  :message: ''
+  :unity_test_time: 0
+- :test: test_angulo_correcto
+  :line: 19
+  :message: ''
+  :unity_test_time: 0
+- :test: test_detect_error_frame
+  :line: 26
+  :message: ''
+  :unity_test_time: 0
+- :test: test_detect_magnet_error
+  :line: 33
+  :message: ''
+  :unity_test_time: 0
+- :test: test_detect_over_power_error
+  :line: 40
+  :message: ''
+  :unity_test_time: 0
+- :test: test_no_magnet_error
+  :line: 47
+  :message: ''
+  :unity_test_time: 0
+- :test: test_no_over_power_error
+  :line: 54
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'test_mlx90316.c:16:test_invalid_frame:INFO: Identificacion de frame invalido de
+  datos: exitosa.'
+- 'test_mlx90316.c:23:test_angulo_correcto:INFO: Calculo correcto de angulo: exitoso.'
+- 'test_mlx90316.c:30:test_detect_error_frame:INFO: Identificacion de frame de error:
+  exitosa.'
+- 'test_mlx90316.c:37:test_detect_magnet_error:INFO: Identificacion de error por ausencia
+  de iman: exitosa.'
+- 'test_mlx90316.c:44:test_detect_over_power_error:INFO: Identificacion de error por
+  alimentacion > 7v: exitosa.'
+- 'test_mlx90316.c:51:test_no_magnet_error:INFO: Identificacion de inexistencia de
+  error por ausencia de iman: exitosa.'
+- 'test_mlx90316.c:58:test_no_over_power_error:INFO: Identificacion de inexistencia
+  de error por alimentacion > 7v: exitosa.'
+:time: 0.0013549569994211197

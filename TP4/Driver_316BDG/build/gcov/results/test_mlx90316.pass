@@ -1,0 +1,42 @@
+---
+:source:
+  :path: test
+  :file: test_mlx90316.c
+:successes:
+- :test: test_invalid_frame
+  :line: 12
+  :message: ''
+  :unity_test_time: 0
+- :test: test_angulo_correcto
+  :line: 18
+  :message: ''
+  :unity_test_time: 0
+- :test: test_detect_error_frame
+  :line: 24
+  :message: ''
+  :unity_test_time: 0
+- :test: test_detect_magnet_error
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+- :test: test_detect_over_power_error
+  :line: 36
+  :message: ''
+  :unity_test_time: 0
+- :test: test_no_magnet_error
+  :line: 42
+  :message: ''
+  :unity_test_time: 0
+- :test: test_no_over_power_error
+  :line: 48
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0015252650046022609
